@@ -21,7 +21,7 @@ body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
   margin: 1em;
-  font-family: 'Libre Franklin',sans-serif; 
+  font-family: 'Roboto', sans-serif; 
   max-width: 100%;
 }
 
@@ -32,6 +32,7 @@ body {
 
 .aligned h1 {
   padding: 1em;
+  font-family: 'Martel', serif;
 }
 
 nav {  
