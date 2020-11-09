@@ -20,7 +20,7 @@ html {
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
-  margin: 1em;
+  margin: .5em;
   font-family: 'Roboto', sans-serif; 
   max-width: 100%;
 }
@@ -39,14 +39,33 @@ body {
 
 .mobile {
   display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.mobile img {
+  padding: 0;
 }
 
 .tablet, .desktop, .lrg-desktop{
   display: none;
 }
 
+.right {
+  float: right;
+  margin-top: 1.3em;
+}
+
+/* Style the hamburger menu */
+nav button.icon {
+  background: transparent;
+  display: block;
+  float: right;
+}
+
 nav {  
-  margin-top: -1em;
+  margin-top: -2em;
   height: 1.75em;
   font-size: 1.2em;
   font-weight: 600;
@@ -59,33 +78,23 @@ nav {
 }
 
 nav ul {
-  float: right;
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  display: none;
 }
-
-nav ul li {
-  float: left;
-  text-align: center;
-}
-
-nav ul li a {
-  vertical-align: middle;
-  color: black;
-  text-decoration: none;
-  padding: 1em;
-} 
-
-nav ul li a:hover { 
-  color: #3d3c3c;
-}  
 
 #navbar #onpage a {
   text-decoration: overline;
 }
 
+
 @media screen and (min-width: 768px) {
+  body {
+    margin: 1em;
+  }
+
+  nav {  
+    margin-top: -1em;
+  }
+
   .aligned h1 {
     padding: .7em;
     line-height: 1.2em;
@@ -107,6 +116,34 @@ nav ul li a:hover {
 
   .bottom {
     padding-top: .1em;
+  }
+
+  nav ul {
+    display: block;
+    float: right;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  nav ul li {
+    float: left;
+    text-align: center;
+  }
+
+  nav ul li a {
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+  } 
+
+  nav ul li a:hover { 
+    color: #3d3c3c;
+  }  
+
+  nav button.icon {
+    display: none;
   }
 }
 
