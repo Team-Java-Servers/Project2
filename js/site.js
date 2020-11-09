@@ -13,20 +13,38 @@ $(document).ready(function() {
 
   $('#history').click(function() {
     $('.history').toggle('.history');
-    $('#constitution').toggle('#constitution');
-    $('#journal').toggle('#journal');
+    if($('.constitution').is(':visible'))
+    {
+      $('.constitution').toggle('.constitution');
+    }
+    if($('.journal').is(':visible'))
+    {
+      $('.journal').toggle('.journal');
+    }
   })
 
   $('#constitution').click(function() {
     $('.constitution').toggle('.constitution');
-    $('#history').toggle('#history');
-    $('#journal').toggle('#journal');
+    if($('.history').is(':visible'))
+    {
+      $('.history').toggle('.history');
+    }
+    if($('.journal').is(':visible'))
+    {
+      $('.journal').toggle('.journal');
+    }
   })
 
   $('#journal').click(function() {
     $('.journal').toggle('.journal');
-    $('#history').toggle('#history');
-    $('#constitution').toggle('#constitution');
+    if($('.history').is(':visible'))
+    {
+      $('.history').toggle('.history');
+    }
+    if($('.constitution').is(':visible'))
+    {
+      $('.constitution').toggle('.constitution');
+    }
   })
 
 })
