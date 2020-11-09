@@ -241,13 +241,13 @@ a {
   }
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 982px) {
   .aligned h1 {
     padding: 1.25em;
   }
 } 
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1015px) {
   body {
     /*font-size: 18px; /* 1em */
   }
@@ -265,16 +265,10 @@ a {
   }
 
   .aligned h1 {
-    padding: 1em;
+    padding: 1.6em;
   }
 
   nav ul li {
     font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 1084px) {
-  .aligned h1 {
-    padding: 1.3em;
   }
 }
