@@ -48,7 +48,18 @@ body {
   padding: 0;
 }
 
-#menu {
+#burger {
+  display: none;
+}
+
+.hasjs #burger {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.hasjs #menu {
   width: 100%;
   display: none;
 }
@@ -118,7 +129,11 @@ nav ul li a {
     display: none;
   }
 
-  #menu {
+  .hasjs #burger {
+    display: none;
+  }
+
+  .hasjs #menu {
     display: block;
   }
 
