@@ -53,6 +53,10 @@ body {
 }
 
 
+p {
+  text-align: left;
+}
+
 .aligned img{
   vertical-align: middle;
   float: left;
@@ -112,6 +116,7 @@ nav {
   float: right;
   width: 100%;
   border-bottom: 0.125em solid black;
+  margin-bottom: 1em;
 }
 
 nav ul {
@@ -137,6 +142,48 @@ nav ul li a {
   text-decoration: overline;
 }
 
+.center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.accordian {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  transition: 0.2s
+  font-size: 2em;
+}
+
+button:focus {
+  outline: none;
+}
+
+.accordian h1 {
+  font-family: 'Martel', serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.history {
+  display: none;
+  overflow: hidden;
+}
+
+.constitution {
+  display: none;
+  overflow: hidden;
+}
+
+.journal {
+  display: none;
+  overflow: hidden;
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -167,6 +214,10 @@ nav ul li a {
 
   .tablet {
     display: block;
+  }
+
+  #navbar {
+    margin-bottom: 2em;
   }
 
   nav ul {
