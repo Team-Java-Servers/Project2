@@ -10,7 +10,7 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/site.js"></script>
 </head>
   <body>
     <header>
@@ -20,7 +20,7 @@
           <img class="tablet" src="images/isud-transparent-medium.png" alt="ISUD logo image">
           <img class="desktop lrg-desktop" src="images/isud-transparent-large.png" alt="ISUD logo image">
           <div class="right">
-            <button class="mobile">
+            <button id="burger" class="mobile">
               <!--<span class="fa fa-bars fa-lg fa-fw"></span>-->
               <img src="images/hamburger.png" />
             </button>
@@ -33,6 +33,7 @@
 
     </header>
     <!-- Top Navigation Menu -->
+    <div id="mobile"></div>
     <div id="navbar">
       <nav>
         <ul>

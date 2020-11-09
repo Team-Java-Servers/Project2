@@ -48,6 +48,12 @@ body {
   padding: 0;
 }
 
+#mobile {
+  width: 100%;
+  border-bottom: 0.125em solid black;
+  display: block;
+}
+
 .tablet, .desktop, .lrg-desktop{
   display: none;
 }
@@ -55,13 +61,6 @@ body {
 .right {
   float: right;
   margin-top: 1.3em;
-}
-
-/* Style the hamburger menu */
-nav button.icon {
-  background: transparent;
-  display: block;
-  float: right;
 }
 
 nav {  
@@ -72,14 +71,35 @@ nav {
 } 
 
 #navbar {
+  display: none;
   float: right;
   width: 100%;
   border-bottom: 0.125em solid black;
 }
 
 nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  position: absolute;
+  top: 5em;
+}
+
+nav ul li {
+  padding: .5em;
+}
+
+nav ul li a {
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+} 
+/*
+nav ul {
   display: none;
 }
+*/
 
 #navbar #onpage a {
   text-decoration: overline;
@@ -105,6 +125,10 @@ nav ul {
     display: none;
   }
 
+  #mobile {
+    display: none;
+  }
+
   .tablet {
     display: block;
   }
@@ -118,12 +142,18 @@ nav ul {
     padding-top: .1em;
   }
 
+  #navbar {
+    display: block;
+  }
+
   nav ul {
     display: block;
     float: right;
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    position: relative;
+    top: auto;
   }
 
   nav ul li {
@@ -141,10 +171,6 @@ nav ul {
   nav ul li a:hover { 
     color: #3d3c3c;
   }  
-
-  nav button.icon {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 968px) {
