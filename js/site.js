@@ -7,8 +7,7 @@ $(document).ready(function() {
   });
 
   $('#burger').click(function() {
-    $('#navbar').toggle();
-    $('#mobile').toggle();
+    $('#menu').toggle();
   })
 
 })

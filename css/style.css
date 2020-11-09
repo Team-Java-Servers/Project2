@@ -37,21 +37,20 @@ body {
   font-family: 'Martel', serif;
 }
 
-.mobile {
+.mobile-visible {
   display: block;
   background-color: transparent;
   border: none;
   padding: 0;
 }
 
-.mobile img {
+.mobile-visible img {
   padding: 0;
 }
 
-#mobile {
+#menu {
   width: 100%;
-  border-bottom: 0.125em solid black;
-  display: block;
+  display: none;
 }
 
 .tablet, .desktop, .lrg-desktop{
@@ -71,7 +70,6 @@ nav {
 } 
 
 #navbar {
-  display: none;
   float: right;
   width: 100%;
   border-bottom: 0.125em solid black;
@@ -95,11 +93,6 @@ nav ul li a {
   text-decoration: none;
   padding: 1em;
 } 
-/*
-nav ul {
-  display: none;
-}
-*/
 
 #navbar #onpage a {
   text-decoration: overline;
@@ -121,37 +114,20 @@ nav ul {
     word-wrap: break-word;
   }
 
-  .mobile {
+  .mobile-visible {
     display: none;
   }
 
-  #mobile {
-    display: none;
+  #menu {
+    display: block;
   }
 
   .tablet {
     display: block;
   }
 
-  .top {
-    padding-top: 2em;
-    padding-bottom: .1em;
-  }
-
-  .bottom {
-    padding-top: .1em;
-  }
-
-  #navbar {
-    display: block;
-  }
-
   nav ul {
-    display: block;
     float: right;
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
     position: relative;
     top: auto;
   }
@@ -160,13 +136,6 @@ nav ul {
     float: left;
     text-align: center;
   }
-
-  nav ul li a {
-    vertical-align: middle;
-    color: black;
-    text-decoration: none;
-    padding: 1em;
-  } 
 
   nav ul li a:hover { 
     color: #3d3c3c;
