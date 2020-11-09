@@ -136,10 +136,22 @@ button:focus {
   outline: none;
 }
 
+button:hover {
+  color: #3d3c3c;
+}
+
+a:hover {
+  color: #3d3c3c;
+}
+
+a {
+  color: black;
+}
+
 .accordian h1 {
   font-family: 'Martel', serif;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: underline;
 }
 
