@@ -7,25 +7,26 @@ $(document).ready(function() {
   });
 
   $('#burger').click(function() {
-    $('#menu').toggle();
+    $('#menu').toggle('#menu');
+    $('#container').toggle('#container.active');
   })
 
   $('#history').click(function() {
-    $('.history').toggle('history');
-    $('#constitution').toggle('constitution');
-    $('#journal').toggle('journal');
+    $('.history').toggle('.history');
+    $('#constitution').toggle('#constitution');
+    $('#journal').toggle('#journal');
   })
 
   $('#constitution').click(function() {
-    $('.constitution').toggle('constitution');
-    $('#history').toggle('history');
-    $('#journal').toggle('journal');
+    $('.constitution').toggle('.constitution');
+    $('#history').toggle('#history');
+    $('#journal').toggle('#journal');
   })
 
   $('#journal').click(function() {
-    $('.journal').toggle('journal');
-    $('#history').toggle('history');
-    $('#constitution').toggle('constitution');
+    $('.journal').toggle('.journal');
+    $('#history').toggle('#history');
+    $('#constitution').toggle('#constitution');
   })
 
 })
