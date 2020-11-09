@@ -21,6 +21,7 @@ body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
+  background-color:#87ACFA;
   font-family: 'Roboto', sans-serif; 
   max-width: 100%;
 }
@@ -30,7 +31,13 @@ body {
   position: relative;
   margin: auto;
 }
-
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
