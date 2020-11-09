@@ -140,7 +140,6 @@ nav ul li a {
   border: none;
   margin: 0 auto;
   display: block;
-  transition: 0.2s;
 }
 
 button:focus {
