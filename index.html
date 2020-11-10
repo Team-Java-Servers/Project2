@@ -8,11 +8,13 @@
     <link rel="stylesheet" media="screen" href="css/reset.css" />
     <link rel="stylesheet" media="screen" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/slider.script.js"></script>
+	<script src="js/script.js"></script>
   </head>
   
   <body>
-  
     <header>
       <div class="aligned">
         <img src="images/isud-transparent-large.png" alt="ISUD logo image">
@@ -21,8 +23,7 @@
         <h1>The Universal Society for Universal Dialog</h1>
       </div>
     </header>
-    
-    <div id="navbar">
+	<div id="navbar">
       <nav>
         <ul>
           <li id="onpage"><a href="index.html">Home</a></li>
@@ -31,8 +32,16 @@
         </ul>
       </nav>
     </div>
-    
-    
+	
+   <div class="slideshow">
+	 <div class="bxslider">
+          <div><img src="images/hands.jpg"></div>
+          <div><img src="images/gandhiyoumustbethechange.jpg"></div>
+          <div><img src="images/inspire.jpg"></div>
+          <div><img src="images/international.jpg"></div>
+          <div><img src="images/teamwork.jpg"></div>
+     </div>
+    </div>
     
   </body>
 </html>
