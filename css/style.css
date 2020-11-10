@@ -30,7 +30,8 @@ body {
  .slideshow {
   height: 350px;
   width: 350px;
-  text-align:right-side;
+  text-align:center;
+  float:right;
   margin: 5em; 
 }
 
