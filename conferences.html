@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
   <head>
-    <title>ISUD - About</title>
+    <title>ISUD - Conferences</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,29 +12,37 @@
   </head>
   
   <body>
-  
     <header>
       <div class="aligned">
-        <img src="images/isud-transparent-large.png" alt="ISUD logo image">
-      </div>
-      <div class="aligned">
-        <h1>The Universal Society for Universal Dialog</h1>
+        <div>
+          <img class="mobile-visible" src="images/isud-transparent-small.png" alt="ISUD logo image">
+          <img class="tablet" src="images/isud-transparent-medium.png" alt="ISUD logo image">
+          <img class="desktop lrg-desktop" src="images/isud-transparent-large.png" alt="ISUD logo image">
+          <div class="right">
+            <button id="burger">
+              <img src="images/hamburger.png" alt="hamburger icon" />
+            </button>
+          </div>
+        </div>
+        <h1 class="mobile-visible">ISUD</h1>
+        <h1 class="tablet desktop">The Universal Society for Universal Dialog</h1>
       </div>
     </header>
     
+    <!-- Top Navigation Menu -->
     <div id="navbar">
-      <nav>
+      <nav id="menu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="conferences.html">Conferences</a></li>
-          <li id="onpage"><a href="#">About</a></li>
+          <li id="onpage"><a href="conferences.html">Conferences</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </div>
     
     <form action="conference.html" method="post" autocomplete="on">
       <fieldset>
-        <legend> Austria Conference Sign Up </legend>
+        <h1> Austria Conference Sign Up </h1>
         <label> First Name: </label><br>
         <input type="text" name="firstName" placeholder="John" class="fn"/><br>
         <label> Last Name: </label><br>
