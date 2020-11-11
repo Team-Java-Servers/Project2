@@ -16,52 +16,63 @@ html {
   /*width: 100%;*/
   margin: 0 auto;
 }
-
+.wrapper {
+	margin-left: auto;
+	
+	
+}
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
-  background-color:#87ACFA;
+  background-color:#87ACFA; /* can be changed later*/
   font-family: 'Roboto', sans-serif; 
   max-width: 100%;
 }
+	
 /* for the image slideshow*/
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-/* Fading animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+ .slideshow {
+  height: 350px;
+  width: 350px;
+  text-align:center;
+  float:right;
+  margin: 5em; 
 }
 
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+
+
+
+
+h1 {
+  font-size: 2.488em; /* 39.813px */
+}
+
+h2 {
+  font-size: 2.074em; /* 33.178px */
+}
+
+h3 {
+  font-size: 1.728em; /* 27.648px */
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+h4 {
+  font-size: 1.613em; /* halfway between 1.728 and 1.44 */
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.2em;
+}
 
 p {
   text-align: left;
+  font-size: 1.44em; /* 23.04px */
+  line-height: 1.2em;
 }
 
 .aligned img{
@@ -72,7 +83,7 @@ p {
 
 .aligned h1 {
   margin: 0;
-  padding: 1em;
+  padding: .8em;
   font-family: 'Martel', serif;
 }
 
@@ -123,7 +134,7 @@ p {
 nav {  
   margin-top: -2em;
   height: 1.75em;
-  font-size: 1.2em;
+  font-size: 1.2em; /* 19.2px */
   font-weight: 600;
 } 
 
@@ -137,7 +148,7 @@ nav {
 nav ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  margin: 0 0 0 .7em; /* Remove margins */
   position: absolute;
   left: -.5em;
   text-align: left;
@@ -146,7 +157,7 @@ nav ul {
 
 nav ul li {
   padding: .75em;
-  font-size: 1.2em;
+  font-size: 1.2em; /* 19.2px */
 
 }
 
@@ -193,9 +204,9 @@ a {
   color: black;
 }
 
-#container a h2 {
+#container h2 {
   font-family: 'Martel', serif;
-  font-size: 1.5em;
+  font-size: 1.728em; /* 27.648px */
   font-weight: 800;
   text-decoration: underline;
   text-align: center;
@@ -216,24 +227,7 @@ a {
   overflow: hidden;
 }
 
-fieldset h1 {
-  font-family: 'Martel', serif;
-  font-size: 1.5em;
-}
 
-fieldset input {
-  padding: 10px 20px;
-  margin-bottom: 15px;
-  font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
-}
-
-fieldset label {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
-}
 
 @media screen and (min-width: 768px) {
   body {
@@ -241,7 +235,7 @@ fieldset label {
   }
 
   .aligned h1 {
-    padding: .7em;
+    padding: .4em;
     line-height: 1.2em;
     word-wrap: break-word;
   }
@@ -295,17 +289,33 @@ fieldset label {
   }
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 982px) {
   .aligned h1 {
     padding: 1.25em;
   }
-} 
 
-@media screen and (min-width: 1010px) {
-  body {
-    /*font-size: 18px; /* 1em */
+  h1 {
+    font-size: 2.074em; /* 33.178px */
   }
 
+  h2 {
+    font-size: 1.728em; /* 27.648px */
+  }
+
+  h3 {
+    font-size: 1.613em; /* halfway between 1.728 and 1.44 */
+  }
+
+  h4 {
+    font-size: 1.2em; /* 19.2px */
+  }
+
+  p {
+    font-size: 1em; /* 16px */
+  }
+} 
+
+@media screen and (min-width: 1015px) {
   .tablet {
     display: none;
   }
@@ -319,16 +329,10 @@ fieldset label {
   }
 
   .aligned h1 {
-    padding: 1em;
+    padding: 1.5em;
   }
 
   nav ul li {
     font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 1084px) {
-  .aligned h1 {
-    padding: 1.3em;
   }
 }
