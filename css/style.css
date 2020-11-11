@@ -20,6 +20,7 @@ html {
 	margin-left: auto;
 	max-height: 25%;
 	max-width: 80%;
+	text-align:center;
 }
 .left-column {
 	float:left;
@@ -45,14 +46,23 @@ body {
   margin: 2.5em; 
 }
 
-
 /* Hide the images by default */
 .mySlides {
   display:none;
 }
 
-
-
+/*for the button on index*/
+input {
+  background-color: #35E12C;
+  color: black;
+  padding: 14px 20px;
+  font-size: 1.2em;
+  border: none;
+  text-align:center;
+  cursor: pointer;
+  width: 35%;
+  
+}
 
 h1 {
   font-size: 2.488em; /* 39.813px */
