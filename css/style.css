@@ -226,7 +226,34 @@ a {
   display: none;
   overflow: hidden;
 }
+fieldset h1 {
+  font-family: 'Martel', serif;
+  font-size: 1.5em;
+}
 
+fieldset input {
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.2em;
+}
+
+fieldset label {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.2em;
+}
+#parentDiv {
+   width: 100%;
+}
+
+#leftForm {
+   width: 50%;
+}
+
+#rightSlide {
+   width: 50%;
 #parentDiv {
    width: 100%;
 }
