@@ -18,7 +18,13 @@ html {
 }
 .wrapper {
 	margin-left: auto;
-	
+	max-height: 25%;
+	max-width: 80%;
+}
+.left-column {
+	float:left;
+	padding-top: 8em;
+	padding-left: .5em;	
 }
 
 body {
@@ -36,7 +42,7 @@ body {
   width: 350px;
   text-align:center;
   float:right;
-  margin: 5em; 
+  margin: 2.5em; 
 }
 
 
@@ -53,15 +59,24 @@ h1 {
 }
 
 h2 {
-  font-size: 2.074em; /* 33.178px */
+  font-size: 2.074em; /* 33.178px */\
 }
+div#index h2 {
+	font-size: 2em;
+	
 
+}
 h3 {
   font-size: 1.728em; /* 27.648px */
   font-weight: 500;
   line-height: 1.2em;
 }
-
+div#index h3 { /*affects index only*/
+  font-size: 1.728em; /* 27.648px */
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: center;	
+}
 h4 {
   font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   font-weight: 500;
@@ -249,7 +264,6 @@ fieldset label {
    width: 100%;
 }
 
-<<<<<<< HEAD
 #leftForm {
    width: 50%;
 }
