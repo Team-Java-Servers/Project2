@@ -239,6 +239,9 @@ fieldset input {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pr/14
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -249,12 +252,14 @@ fieldset label {
    width: 100%;
 }
 
+<<<<<<< HEAD
 #leftForm {
    width: 50%;
 }
 
 #rightSlide {
    width: 50%;
+}
 #parentDiv {
    width: 100%;
 }
