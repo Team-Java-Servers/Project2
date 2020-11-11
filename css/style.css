@@ -16,11 +16,11 @@ html {
   /*width: 100%;*/
   margin: 0 auto;
 }
+
 .wrapper {
-	margin-left: auto;
-	
-	
+  margin-left: auto;
 }
+
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
@@ -39,14 +39,10 @@ body {
   margin: 5em; 
 }
 
-
 /* Hide the images by default */
 .mySlides {
   display:none;
 }
-
-
-
 
 h1 {
   font-size: 2.488em; /* 39.813px */
@@ -238,21 +234,17 @@ fieldset input {
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> pr/14
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.2em;
 }
+
 #parentDiv {
    width: 100%;
 }
 
-<<<<<<< HEAD
 #leftForm {
    width: 50%;
 }
@@ -267,9 +259,6 @@ fieldset label {
 #leftForm {
    width: 50%;
 }
-=======
->>>>>>> f17f96ea37baaf90e7b1773ecd23f8994976bcc6
-
 
 @media screen and (min-width: 768px) {
   body {
