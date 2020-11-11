@@ -238,6 +238,7 @@ fieldset input {
   font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -261,10 +262,9 @@ fieldset label {
 #leftForm {
    width: 50%;
 }
+=======
+>>>>>>> f17f96ea37baaf90e7b1773ecd23f8994976bcc6
 
-#rightSlide {
-   width: 50%;
-}
 
 @media screen and (min-width: 768px) {
   body {
