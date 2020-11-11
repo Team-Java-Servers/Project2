@@ -45,7 +45,7 @@ $(document).ready(function() {
     {
       $('.constitution').toggle('.constitution');
     } 
-	}}
+	})
 	
      $('#signup').click(function() {
 	   alert( "Thank you for your consideration. Your response had been received");
