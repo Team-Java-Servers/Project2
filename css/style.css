@@ -119,7 +119,7 @@ nav {
   float: right;
   width: 100%;
   border-bottom: 0.125em solid black;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 nav ul {
@@ -232,7 +232,7 @@ a {
   }
 
   #navbar {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
   }
 
   nav {  
