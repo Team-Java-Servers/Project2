@@ -243,23 +243,24 @@ a {
 }
 fieldset h1 {
   font-family: 'Martel', serif;
-  font-size: 1.5em;
+  font-size: 1.55em;
 }
 
 fieldset input {
   padding: 10px 20px;
+  margin-top: 8px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
+  font-size: 1.18em;
 }
-
 
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
+
 #parentDiv {
    width: 100%;
 }
@@ -271,14 +272,6 @@ fieldset label {
 #rightSlide {
    width: 50%;
 }
-#parentDiv {
-   width: 100%;
-}
-
-#leftForm {
-   width: 50%;
-}
-
 
 @media screen and (min-width: 768px) {
   body {
