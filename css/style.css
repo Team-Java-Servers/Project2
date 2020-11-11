@@ -19,20 +19,20 @@ html {
 .wrapper {
 	margin-left: auto;
 	max-height: 25%;
-	max-width: 80%;
+	max-width: 90%;
 	text-align:center;
 }
 .left-column {
 	float:left;
 	padding-top: 8em;
-	padding-left: .5em;	
+	padding-left: 5em;
 }
 
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
-  background-color:#87ACFA; /* can be changed later*/
+  background-color:#81D66B; /* can be changed later*/
   font-family: 'Roboto', sans-serif; 
   max-width: 100%;
 }
@@ -53,8 +53,8 @@ body {
 
 /*for the button on index*/
 div#index input {
-  background-color: #35E12C;
-  color: black;
+  background-color: #0F3E02;
+  color: white;
   padding: 14px 20px;
   font-size: 1.2em;
   border: none;
