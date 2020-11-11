@@ -73,8 +73,6 @@ h2 {
 }
 div#index h2 {
 	font-size: 2em;
-	
-
 }
 h3 {
   font-size: 1.728em; /* 27.648px */
@@ -358,11 +356,15 @@ fieldset label {
   h1 {
     font-size: 2.074em; /* 33.178px */
   }
-
+div#index h2 {
+	font-size: 1.728em;
+}
   h2 {
     font-size: 1.728em; /* 27.648px */
   }
-
+div#index h3 {
+		font-size:1.613em;
+}
   h3 {
     font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   }
