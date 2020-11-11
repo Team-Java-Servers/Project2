@@ -222,6 +222,7 @@ a {
   display: none;
   overflow: hidden;
 }
+
 fieldset h1 {
   font-family: 'Martel', serif;
   font-size: 1.5em;
@@ -250,13 +251,6 @@ fieldset label {
 }
 
 #rightSlide {
-   width: 50%;
-}
-#parentDiv {
-   width: 100%;
-}
-
-#leftForm {
    width: 50%;
 }
 
