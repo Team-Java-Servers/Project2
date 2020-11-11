@@ -52,7 +52,7 @@ body {
 }
 
 /*for the button on index*/
-input {
+div#index input {
   background-color: #35E12C;
   color: black;
   padding: 14px 20px;
