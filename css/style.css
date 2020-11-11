@@ -24,6 +24,8 @@ html {
 }
 .left-column {
 	float:left;
+	max-height: 25%;
+	max-width: 80%;
 	padding-top: 8em;
 	padding-left: .5em;	
 }
