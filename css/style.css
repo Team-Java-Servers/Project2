@@ -16,9 +16,15 @@ html {
   /*width: 100%;*/
   margin: 0 auto;
 }
-
 .wrapper {
-  margin-left: auto;
+	margin-left: auto;
+	max-height: 25%;
+	max-width: 80%;
+}
+.left-column {
+	float:left;
+	padding-top: 8em;
+	padding-left: .5em;	
 }
 
 body {
@@ -36,28 +42,41 @@ body {
   width: 350px;
   text-align:center;
   float:right;
-  margin: 5em; 
+  margin: 2.5em; 
 }
+
 
 /* Hide the images by default */
 .mySlides {
   display:none;
 }
 
+
+
+
 h1 {
   font-size: 2.488em; /* 39.813px */
 }
 
 h2 {
-  font-size: 2.074em; /* 33.178px */
+  font-size: 2.074em; /* 33.178px */\
 }
+div#index h2 {
+	font-size: 2em;
+	
 
+}
 h3 {
   font-size: 1.728em; /* 27.648px */
   font-weight: 500;
   line-height: 1.2em;
 }
-
+div#index h3 { /*affects index only*/
+  font-size: 1.728em; /* 27.648px */
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: center;	
+}
 h4 {
   font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   font-weight: 500;
@@ -222,7 +241,6 @@ a {
   display: none;
   overflow: hidden;
 }
-
 fieldset h1 {
   font-family: 'Martel', serif;
   font-size: 1.5em;
@@ -235,13 +253,13 @@ fieldset input {
   font-size: 1.2em;
 }
 
+
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.2em;
 }
-
 #parentDiv {
    width: 100%;
 }
@@ -253,6 +271,14 @@ fieldset label {
 #rightSlide {
    width: 50%;
 }
+#parentDiv {
+   width: 100%;
+}
+
+#leftForm {
+   width: 50%;
+}
+
 
 @media screen and (min-width: 768px) {
   body {
