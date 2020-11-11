@@ -44,7 +44,13 @@ $(document).ready(function() {
     if($('.constitution').is(':visible'))
     {
       $('.constitution').toggle('.constitution');
-    }
+    } 
+	}}
+	
+     $('#signup').click(function() {
+	   alert( "Thank you for your consideration. Your response had been received");
+ 
   })
+  
 
 })
