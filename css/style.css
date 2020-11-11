@@ -16,7 +16,11 @@ html {
   /*width: 100%;*/
   margin: 0 auto;
 }
-
+.wrapper {
+	margin-left: auto;
+	
+	
+}
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
