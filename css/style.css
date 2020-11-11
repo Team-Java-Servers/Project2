@@ -19,8 +19,8 @@ html {
 .wrapper {
 	margin-left: auto;
 	
-	
 }
+
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
@@ -238,10 +238,7 @@ fieldset input {
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> pr/14
+
 fieldset label {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -267,8 +264,6 @@ fieldset label {
 #leftForm {
    width: 50%;
 }
-=======
->>>>>>> f17f96ea37baaf90e7b1773ecd23f8994976bcc6
 
 
 @media screen and (min-width: 768px) {
