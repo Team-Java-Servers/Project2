@@ -47,8 +47,8 @@ $(document).ready(function() {
     } 
 	})
 	
-     $('#signup').click(function() {
-	   alert( "Thank you for your consideration. Your response had been received");
+  $('#signup').click(function() {
+	alert( "Thank you for your consideration. Your response had been received");
  
   })
   
