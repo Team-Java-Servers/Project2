@@ -47,4 +47,8 @@ $(document).ready(function() {
     }
   })
 
+  $('#submit').click(function() {
+    alert( "Your response had been received. More information is headed your way!");
+  })
+
 })
