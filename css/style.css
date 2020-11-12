@@ -257,17 +257,22 @@ a {
 }
 
 .tagline {
-  margin: 6px 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.18em;
+  font-weight: 400;
 }
 
 fieldset h1 {
   font-family: 'Martel', serif;
+  font-size: 1.65em;
 }
 
 fieldset input {
-  padding: 10px 20px;
+  padding: 8px 20px;
   margin-top: 8px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif; 
@@ -284,6 +289,11 @@ fieldset label {
 fieldset {
   border: none;
   text-align:center;
+}
+
+#submit{
+  background-color: #0F3E02;
+  color: white;
 }
 
 #parentDiv {
