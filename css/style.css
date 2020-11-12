@@ -17,15 +17,15 @@ html {
   margin: 0 auto;
 }
 .wrapper {
+	padding-top: 2.5em;
 	margin-left: auto;
 	max-height: 25%;
-	max-width: 90%;
 	text-align:center;
 }
 .left-column {
 	float:left;
 	padding-top: 8em;
-	padding-left: 5em;
+	padding-left: 10em;
 }
 
 body {
@@ -60,7 +60,7 @@ div#index input {
   border: none;
   text-align:center;
   cursor: pointer;
-  width: 35%;
+  width: 60%;
   
 }
 
