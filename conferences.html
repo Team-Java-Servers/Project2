@@ -1,80 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-<<<<<<< HEAD
-  <head>
-    <title>ISUD - Conferences</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="css/reset.css" />
-    <link rel="stylesheet" media="screen" href="css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-  </head>
-
-=======
-<head>
-  <title>ISUD - Conferences</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
-</head>
->>>>>>> f17f96ea37baaf90e7b1773ecd23f8994976bcc6
-  <body>
-    <header>
-      <div class="aligned">
-        <div>
-          <img class="mobile-visible" src="images/isud-transparent-small.png" alt="ISUD logo image">
+	<head>
+		<title>ISUD - Conferences</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+		<link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" media="screen" href="css/reset.css" />
+		<link rel="stylesheet" media="screen" href="css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<script src="js/slider.script.js"></script>
+		<script src="js/site.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="aligned">
+				<div>
+        	<img class="mobile-visible" src="images/isud-transparent-small.png" alt="ISUD logo image">
           <img class="tablet" src="images/isud-transparent-medium.png" alt="ISUD logo image">
           <img class="desktop lrg-desktop" src="images/isud-transparent-large.png" alt="ISUD logo image">
           <div class="right">
-            <button id="burger">
-              <img src="images/hamburger.png" alt="hamburger icon" />
-            </button>
-          </div>
+          <button id="burger">
+          	<img src="images/hamburger.png" alt="hamburger icon" />
+          </button>
+				</div>
         </div>
-        <h1 class="mobile-visible">ISUD</h1>
-        <h1 class="tablet desktop">The Universal Society for Universal Dialog</h1>
-      </div>
-    </header>
-
-    <!-- Top Navigation Menu -->
-    <div id="navbar">
-      <nav id="menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li id="onpage"><a href="conferences.html">Conferences</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div id="leftForm">
-      <form action="conference.html" method="post" autocomplete="on">
-        <fieldset>
-          <h1> Austria Conference Sign Up </h1>
-          <label> First Name: </label><br>
-          <input type="text" name="firstName" placeholder="John" class="fn"/><br>
-          <label> Last Name: </label><br>
-          <input type="text" name="lastName" placeholder="Appleseed" class="ln"/><br>
-          <label> Email: </label><br>
-          <input type="email" name="email" placeholder="johnappleseed@gmail.com" class="email"/><br>
-          <input type="submit" class="submit" id="submit" value="Get More Info"/>
-        </fieldset>
-      </form>
-    </div>
-
-    <div class="slideshow">
-	    <div class="bxslider">
-        <div><img src="images/structure.png"></div>
-        <div><img src="images/structure2.png"></div>
-        <div><img src="images/structure3.png"></div>
-      </div>
-    </div>
-
-  </body>
+        	<h1 class="mobile-visible">ISUD</h1>
+        	<h1 class="tablet desktop">The Universal Society for Universal Dialog</h1>
+      	</div>
+    	</header>
+    	<!-- Top Navigation Menu -->
+    	<div id="navbar">
+      	<nav id="menu">
+        	<ul>
+          	<li><a href="index.html">Home</a></li>
+          	<li id="onpage"><a href="conferences.html">Conferences</a></li>
+          	<li class="trim-right"><a href="about.html">About</a></li>
+        	</ul>
+     		</nav>
+    	</div>
+		<div id="parentDiv">
+			<div id="leftForm">
+				<form action="conference.html" method="post" autocomplete="on">
+					<fieldset>
+						<h1> Austria Conference Sign Up </h1>
+						<h3> Join our conference now to discuss the promotion of human rights, world peace, and the preservation of the environment.</h3>
+						<label> First Name: </label><br>
+						<input type="text" name="firstName" placeholder="John" class="fn"/><br>
+						<label> Last Name: </label><br>
+						<input type="text" name="lastName" placeholder="Appleseed" class="ln"/><br>
+						<label> Email: </label><br>
+						<input type="email" name="email" placeholder="johnappleseed@gmail.com" class="email"/><br>
+						<input type="submit" class="submit" id="submit" value="Get More Info"/>
+					</fieldset>
+      	</form>
+			</div>
+			<div class="slideshow">
+				<div class="bxslider">
+					<div><img class="desktop" src="images/structure1-large.png" alt="image 1 large"></div>
+					<div><img class="desktop" src="images/structure2-large.png" alt="image 2 large"></div>
+					<div><img class="desktop" src="images/structure3-large.png" alt="image 3 large"></div>
+				</div>
+    	</div>
+		</div>
+	</body>
 </html>

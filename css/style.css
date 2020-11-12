@@ -273,21 +273,6 @@ fieldset {
 	border: 1px solid white;
 }
 
-fieldset h3 {
-	font-family: 'Roboto', sans-serif; 
-	font-size: 1.1em;
-	margin: 6px 20px;
-}
-
-#submit {
-	color: white;
-	background-color: #0F3E02;
-}
-
-fieldset {
-	border: 1px solid white;
-}
-
 #parentDiv {
    width: 100%;
 }
