@@ -18,29 +18,16 @@ html {
 }
 
 .wrapper {
-<<<<<<< HEAD
 	padding-top: 2.5em;
 	margin-left: auto;
 	max-height: 25%;
 	text-align:center;
-=======
-  margin-left: auto;
-  max-height: 25%;
-  max-width: 90%;
-  text-align:center;
->>>>>>> main
 }
 
 .left-column {
-<<<<<<< HEAD
 	float:left;
 	padding-top: 8em;
 	padding-left: 10em;
-=======
-  float:left;
-  padding-top: 8em;
-  padding-left: 5em;
->>>>>>> main
 }
 
 body {
@@ -75,12 +62,7 @@ div#index input {
   border: none;
   text-align:center;
   cursor: pointer;
-<<<<<<< HEAD
   width: 60%;
-  
-=======
-  width: 35%;
->>>>>>> main
 }
 
 h1 {
