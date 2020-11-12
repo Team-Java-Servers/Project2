@@ -44,11 +44,15 @@ $(document).ready(function() {
     if($('.constitution').is(':visible'))
     {
       $('.constitution').toggle('.constitution');
-    }
+    } 
   })
 
   $('#submit').click(function() {
     alert( "Your response had been received. More information is headed your way!");
   })
 
+  $('#signup').click(function() {
+	alert( "Thank you for your consideration. Your response had been received");
+  })
+  
 })
