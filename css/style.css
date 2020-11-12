@@ -254,9 +254,14 @@ a {
   overflow: hidden;
 }
 
+.tagline {
+  margin: 6px 20px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.18em;
+}
+
 fieldset h1 {
   font-family: 'Martel', serif;
-  font-size: 1.55em;
 }
 
 fieldset input {
