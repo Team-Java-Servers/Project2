@@ -27,10 +27,12 @@ body {
 
 h1 {
   font-size: 2.488em; /* 39.813px */
+  line-height: 1.2em;
 }
 
 h2 {
   font-size: 2.074em; /* 33.178px */
+  line-height: 1.2em;
 }
 
 h3 {
