@@ -18,16 +18,14 @@ html {
 }
 
 .wrapper {
-  padding-top: 2.5em;
+  padding-top: 1em;
   margin-left: auto;
   max-height: 25%;
   text-align:center;
 }
 
 .left-column {
-  float:left;
-  padding-top: 8em;
-  padding-left: 10em;
+  /*float:left;*/
 }
 
 body {
@@ -36,16 +34,16 @@ body {
   margin: .5em;
   background-color:#81D66B; /* can be changed later*/
   font-family: 'Roboto', sans-serif; 
-  width: 100%;
+  /*width: 100%;*/
 }
 	
 /* for the image slideshow*/
  .slideshow {
-  height: 28.125em;
-  width: 28.125em;
+  /*height: 28.125em;
+  width: 28.125em;*/
   text-align:center;
-  float:right;
-  margin: 2.5em; 
+  /*float:right;*/
+  margin: 4em 0 auto; 
 }
 
 /* Hide the images by default */
@@ -57,12 +55,11 @@ body {
 div#index input {
   background-color: #0F3E02;
   color: white;
-  padding: .5em;
+  padding: .5em 1em;
   font-size: 1.44em;
   border: none;
   text-align:center;
   cursor: pointer;
-  width: 60%;
   border-radius: .34375em;
   box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
   outline: none;
@@ -288,11 +285,12 @@ fieldset h1 {
 }
 
 fieldset input {
-  padding: .5em 1.25em;
+  padding: .5em 1em;
   margin-top: .5em;
   margin-bottom: .9375em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.18em;
+  width: 50%;
 }
 
 fieldset input:hover {
@@ -321,6 +319,7 @@ fieldset {
   box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
   outline: none;
   transition: 0.2s all;
+  width: 40%;
 }
 
 #submit:hover {
@@ -341,7 +340,8 @@ fieldset {
 
 #leftForm {
   width: 50%;
-  float: left;
+  /*float: left;*/
+  margin: 0 auto;
 }
 
 #rightSlide {
@@ -405,6 +405,19 @@ fieldset {
 
   .trim-right a {
     padding-right: 0;
+  }
+
+  .left-column {
+    /*padding-top: 5em;*/
+    /*padding-left: 3em;*/
+  }
+
+  .slideshow {
+    /*height: 28.125em;*/
+    width: 28.125em;
+    text-align:center;
+    /*float:right;*/
+    margin: 4em auto; 
   }
 }
 
