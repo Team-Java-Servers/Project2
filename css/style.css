@@ -162,7 +162,7 @@ p {
 }
 
 #container {
-  position: relative;
+  /*position: relative; interfering with navigation click location on conferences page only */
 }
 
 .tablet, .desktop, .lrg-desktop{
@@ -290,7 +290,7 @@ fieldset input {
   margin-bottom: .9375em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.18em;
-  width: 50%;
+  width: 40%;
 }
 
 fieldset input:hover {
@@ -319,7 +319,7 @@ fieldset {
   box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
   outline: none;
   transition: 0.2s all;
-  width: 40%;
+  width: 30%;
 }
 
 #submit:hover {
