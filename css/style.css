@@ -18,9 +18,10 @@ html {
 }
 
 .wrapper {
-	padding-top: 2.5em;
-	margin-left: auto;
-	max-height: 25%;
+	padding-top: 0.5em;
+	padding-left: 15em;
+	width: 50o%;
+	height: 50%;
 	text-align:center;
 }
 
