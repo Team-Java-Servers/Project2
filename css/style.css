@@ -43,7 +43,7 @@ body {
   width: 28.125em;*/
   text-align:center;
   /*float:right;*/
-  margin: 4em 0 auto; 
+  margin: 2em 0 auto; 
 }
 
 /* Hide the images by default */
@@ -252,6 +252,11 @@ a {
   font-weight: 800;
   text-decoration: underline;
   text-align: center;
+  margin-top: 0;
+}
+
+#container h3 {
+  margin-top: 0;
 }
 
 .history {
@@ -275,13 +280,19 @@ a {
   margin-left: 1.25em;
   margin-right: 1.25em;
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.18em;
+  /*font-size: 1.18em;*/
   font-weight: 400;
 }
 
 fieldset h1 {
   font-family: 'Martel', serif;
-  font-size: 1.65em;
+  /*font-size: 1.65em;*/
+  margin-top: 0;
+}
+
+fieldset ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 fieldset input {
@@ -290,7 +301,8 @@ fieldset input {
   margin-bottom: .9375em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.18em;
-  width: 40%;
+  /*width: 15em;*/
+    
 }
 
 fieldset input:hover {
@@ -302,11 +314,56 @@ fieldset label {
   margin-bottom: .625em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.25em;
+
+    padding-right: .5em; 
+    padding-top: .2em; 
 }
 
 fieldset {
   border: none;
   text-align:center;
+  padding: 0;
+  margin: 0;
+}
+
+.inputwrap {
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.form-row label {
+  flex: 1;
+}
+
+.form-row input {
+  flex: 2;
+}
+
+.form-row input,
+.form-row button {
+  padding: .5em;
+
+}
+
+.form-row button {
+ background: gray;
+ color: white;
+ border: 0;
+ width: 20%
+ margin: 0 auto;
+}
+
+.inputbox {
+  text-align: left;
 }
 
 #submit {
@@ -319,7 +376,10 @@ fieldset {
   box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
   outline: none;
   transition: 0.2s all;
-  width: 30%;
+  /*width: 20%;*/ 
+  clear: left;
+  display: block;
+  margin: 0 auto;
 }
 
 #submit:hover {
@@ -339,8 +399,8 @@ fieldset {
 }
 
 #leftForm {
-  width: 50%;
-  /*float: left;*/
+  /*width: 50%;
+  float: left;*/
   margin: 0 auto;
 }
 
@@ -410,6 +470,18 @@ fieldset {
   .left-column {
     /*padding-top: 5em;*/
     /*padding-left: 3em;*/
+  }
+
+  #container h2 {
+  margin-top: auto;
+  }
+
+  #container h3 {
+  margin-top: auto;
+  }
+
+  .inputwrap {
+    width: 40%;
   }
 
   .slideshow {

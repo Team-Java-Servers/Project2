@@ -44,18 +44,28 @@
     </div>
     <div id="container">
       <div id="parentDiv">
-        <div id="leftForm">
+        <div id="leftForm">        
           <form action="conference.html" method="post" autocomplete="on">
             <fieldset>
               <h1> Austria Conference Sign Up </h1>
               <h3 class="tagline"> Join our conference now to discuss the promotion of human rights, world peace, and the preservation of the environment.</h3>
-              <label> First Name: </label><br>
-              <input type="text" name="firstName" placeholder="John" class="fn" required /><br>
-              <label> Last Name: </label><br>
-              <input type="text" name="lastName" placeholder="Appleseed" class="ln" required /><br>
-              <label> Email: </label><br>
-              <input type="email" name="email" placeholder="johnappleseed@gmail.com" class="email" required /><br>
-              <input type="submit" class="submit" id="submit" value="Get More Info"/>
+              <ul class="inputwrap">
+                <li class="form-row">
+                  <label> First Name: </label>
+                  <input type="text" name="firstName" placeholder="John" class="inputbox" required />
+                </li>
+                <li class="form-row">
+                  <label> Last Name: </label>
+                  <input type="text" name="lastName" placeholder="Appleseed" class="inputbox" required />
+                </li>
+                <li class="form-row">
+                  <label> Email: </label>
+                  <input type="email" name="email" placeholder="johnappleseed@gmail.com" class="inputbox" required />
+                </li>
+                <li>
+                  <p></p><input type="submit" class="submit" id="submit" value="Get More Info"/>
+                </li>
+              </ul>
             </fieldset>
           </form>
         </div>
