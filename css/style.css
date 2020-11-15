@@ -13,7 +13,6 @@ input:-webkit-autofill  {
 
 html {
   width: 90%;
-  /*width: 100%;*/
   margin: 0 auto;
   max-width: 982px;
 }
@@ -25,31 +24,23 @@ html {
   text-align:center;
 }
 
-.left-column {
-  /*float:left;*/
-}
-
 body {
   font-size: 16px; /* 1em */
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
   background-color:#81D66B; /* can be changed later*/
   font-family: 'Roboto', sans-serif; 
-  /*width: 100%;*/
 }
 	
 /* for the image slideshow*/
  .slideshow {
-  /*height: 28.125em;
-  width: 28.125em;*/
-  text-align:center;
-  /*float:right;*/
+  text-align: center;
   margin: 2em 0 auto; 
 }
 
 /* Hide the images by default */
 .mySlides {
-  display:none;
+  display: none;
 }
 
 /*for the button on index*/
@@ -281,13 +272,11 @@ a {
   margin-left: 1.25em;
   margin-right: 1.25em;
   font-family: 'Roboto', sans-serif; 
-  /*font-size: 1.18em;*/
   font-weight: 400;
 }
 
 fieldset h1 {
   font-family: 'Martel', serif;
-  /*font-size: 1.65em;*/
   margin-top: 0;
 }
 
@@ -302,8 +291,6 @@ fieldset input {
   margin-bottom: .9375em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.18em;
-  /*width: 15em;*/
-    
 }
 
 fieldset input:hover {
@@ -315,9 +302,8 @@ fieldset label {
   margin-bottom: .625em;
   font-family: 'Roboto', sans-serif; 
   font-size: 1.25em;
-
-    padding-right: .5em; 
-    padding-top: .2em; 
+  padding-right: .5em; 
+  padding-top: .2em; 
 }
 
 fieldset {
@@ -377,7 +363,6 @@ fieldset {
   box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
   outline: none;
   transition: 0.2s all;
-  /*width: 20%;*/ 
   clear: left;
   display: block;
   margin: 0 auto;
@@ -400,8 +385,6 @@ fieldset {
 }
 
 #leftForm {
-  /*width: 50%;
-  float: left;*/
   margin: 0 auto;
 }
 
@@ -468,11 +451,6 @@ fieldset {
     padding-right: 0;
   }
 
-  .left-column {
-    /*padding-top: 5em;*/
-    /*padding-left: 3em;*/
-  }
-
   #container h2 {
   margin-top: auto;
   }
@@ -486,10 +464,8 @@ fieldset {
   }
 
   .slideshow {
-    /*height: 28.125em;*/
     width: 28.125em;
     text-align:center;
-    /*float:right;*/
     margin: 4em auto; 
   }
 }
