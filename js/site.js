@@ -47,4 +47,15 @@ $(document).ready(function() {
     } 
   })
   
+  var button = document.getElementById("submit");
+  button.addEventListener("click", function buttonPress() {
+      var firstname = document.getElementById("firstname").value;
+      var lastname = document.getElementById("lastname").value;
+      var email = document.getElementById("email").value;
+      if (firstname && lastname && email) {
+          alert("More information is headed your way!");
+      } else {
+          alert("Please fill out all boxes...");
+      }
+  })
 })
