@@ -55,7 +55,7 @@ body {
 }
 
 /*for the button on index*/
-div#index input {
+div#index button {
   background-color: #0F3E02;
   color: white;
   padding: 14px 20px;
