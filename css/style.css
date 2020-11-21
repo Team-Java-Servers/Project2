@@ -13,22 +13,8 @@ input:-webkit-autofill  {
 
 html {
   width: 90%;
-  /*width: 100%;*/
   margin: 0 auto;
-}
-
-.wrapper {
-	padding-top: 0.5em;
-	padding-left: 15em;
-	width: 50o%;
-	height: 50%;
-	text-align:center;
-}
-
-.left-column {
-	float:left;
-	padding-top: 8em;
-	padding-left: 10em;
+  max-width: 982px;
 }
 
 body {
@@ -36,46 +22,19 @@ body {
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
   background-color:#81D66B; /* can be changed later*/
-  font-family: 'Roboto', sans-serif; 
-  width: 100%;
-}
-	
-/* for the image slideshow*/
- .slideshow {
-  height: 350px;
-  width: 350px;
-  text-align:center;
-  float:right;
-  margin: 2.5em; 
-}
-
-/* Hide the images by default */
-.mySlides {
-  display:none;
-}
-
-/*for the button on index*/
-div#index input {
-  background-color: #0F3E02;
-  color: white;
-  padding: 14px 20px;
-  font-size: 1.2em;
-  border: none;
-  text-align:center;
-  cursor: pointer;
-  width: 60%;
+  font-family: 'Roboto', Helvetica, sans-serif; 
 }
 
 h1 {
+  font-family: 'Martel', Georgia, serif;
   font-size: 2.488em; /* 39.813px */
+  line-height: 1.2em;
 }
 
 h2 {
-  font-size: 2.074em; /* 33.178px */\
-}
-
-div#index h2 {
-  font-size: 2em;
+  font-family: 'Martel', Georgia, serif;
+  font-size: 2.074em; /* 33.178px */
+  line-height: 1.2em;
 }
 
 h3 {
@@ -83,14 +42,7 @@ h3 {
   font-weight: 500;
   line-height: 1.2em;
 }
-
-div#index h3 { /*affects index only*/
-  font-size: 1.728em; /* 27.648px */
-  font-weight: 500;
-  line-height: 1.2em;
-  text-align: center;	
-}
-
+	
 h4 {
   font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   font-weight: 500;
@@ -104,75 +56,12 @@ p {
   line-height: 1.2em;
 }
 
-.aligned img{
-  vertical-align: middle;
-  float: left;
-  padding-right: 1em;
-}
-
-.aligned h1 {
-  margin: 0;
-  padding: .8em;
-  font-family: 'Martel', serif;
-}
-
-.mobile-visible {
-  display: block;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-}
-
-.mobile-visible img {
-  padding: 0;
-}
-
-#burger {
-  display: none;
-}
-
-.hasjs #burger {
-  display: block;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-}
-
-.hasjs #menu {
-  width: 100%;
-  display: none;
-}
-
-.hasjs #container.active {
-  top: 6em;
-}
-
-#container {
-  position: relative;
-}
-
-.tablet, .desktop, .lrg-desktop{
-  display: none;
-}
-
-.right {
-  float: right;
-  margin-top: 1.3em;
-}
-
 nav {  
   margin-top: -2em;
   height: 1.75em;
   font-size: 1.2em; /* 19.2px */
   font-weight: 600;
 } 
-
-#navbar {
-  float: right;
-  width: 100%;
-  border-bottom: 0.125em solid black;
-  margin-bottom: 2em;
-}
 
 nav ul {
   list-style-type: none; /* Remove bullets */
@@ -196,8 +85,252 @@ nav ul li a {
   padding: 1em;
 } 
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: #3d3c3c;
+}
+
+.aligned h1 {
+  margin: 0;
+  padding: .45em;
+}
+
+#container h2 {
+  font-size: 1.728em; /* 27.648px */
+  font-weight: 800;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 0;
+}
+
+div#index h2 {
+  font-size: 2em;
+}
+
+#container h3 {
+  margin-top: 0;
+}
+
+div#index h3 { /*affects index only*/
+  font-size: 1.728em; /* 27.648px */
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: center; 
+}
+
+.aligned img{
+  vertical-align: middle;
+  float: left;
+  padding-right: 1em;
+}
+
+.mobile-visible img {
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: #3d3c3c;
+}
+
+fieldset h1 {
+  margin-top: 0;
+}
+
+fieldset ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+fieldset input {
+  padding: .5em 1em;
+  margin-top: .5em;
+  margin-bottom: .9375em;
+  font-size: 1.18em;
+}
+
+fieldset input:hover {
+  background-color: #f2f2f2;
+}
+
+fieldset label {
+  margin-top: .9375em;
+  margin-bottom: .625em;
+  font-size: 1.25em;
+  padding-right: .5em; 
+  padding-top: .2em; 
+}
+
+fieldset {
+  border: none;
+  text-align:center;
+  padding: 0;
+  margin: 0;
+}
+
+/*for the button on index*/
+div#index input {
+  background-color: #0F3E02;
+  color: white;
+  padding: .5em 1em;
+  font-size: 1.44em;
+  border: none;
+  text-align:center;
+  cursor: pointer;
+  border-radius: .34375em;
+  box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
+  outline: none;
+  transition: 0.2s all;
+}
+
+div#index input:hover {
+  color: #c2c2c2;
+}
+
+/* Adding transformation when the button is active */
+div#index input:active {
+  transform: scale(0.98); 
+  /* Scaling button to 0.98 to its original size */ 
+  box-shadow: .1875em .125em 1.375em .0625em rgba(0, 0, 0, 0.5); 
+  /* Lowering the shadow */ 
+}
+
+#navbar {
+  float: right;
+  width: 100%;
+  border-bottom: 0.125em solid black;
+  margin-bottom: 2em;
+}
+
 #navbar #onpage a {
   text-decoration: overline;
+}
+
+#submit {
+  font-size: 1.44em;
+  background-color: #0F3E02;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: .34375em;
+  box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
+  outline: none;
+  transition: 0.2s all;
+  clear: left;
+  display: block;
+  margin: 0 auto;
+}
+
+#submit:hover {
+  color: #c2c2c2;
+}
+
+/* Adding transformation when the button is active */
+#submit:active {
+  transform: scale(0.98); 
+  /* Scaling button to 0.98 to its original size */ 
+  box-shadow: .1875em .125em 1.375em .0625em rgba(0, 0, 0, 0.5); 
+  /* Lowering the shadow */ 
+}
+
+#parentDiv {
+  width: 100%;
+}
+
+#leftForm {
+  margin: 0 auto;
+}
+
+#rightSlide {
+  width: 50%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.form-row label {
+  flex: 1;
+}
+
+.form-row input {
+  flex: 2;
+}
+
+.form-row input,
+.form-row button {
+  padding: .5em;
+
+}
+
+.form-row button {
+ background: gray;
+ color: white;
+ border: 0;
+ width: 20%;
+ margin: 0 auto;
+}
+
+.wrapper {
+  padding-top: 1em;
+  margin-left: auto;
+  max-height: 25%;
+  text-align:center;
+}
+
+/* for the image slideshow*/
+ .slideshow {
+  text-align: center;
+  margin: 2em 0 auto; 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mobile-visible {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+#burger {
+  display: none;
+}
+
+.hasjs #burger {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.hasjs #menu {
+  width: 100%;
+  display: none;
+}
+
+.hasjs #container.active {
+  top: 6em;
+}
+
+.tablet, .desktop, .lrg-desktop{
+  display: none;
+}
+
+.right {
+  float: right;
+  margin-top: 1.3em;
 }
 
 .center {
@@ -216,30 +349,6 @@ nav ul li a {
   display: block;
 }
 
-button:focus {
-  outline: none;
-}
-
-button:hover {
-  color: #3d3c3c;
-}
-
-a:hover {
-  color: #3d3c3c;
-}
-
-a {
-  color: black;
-}
-
-#container h2 {
-  font-family: 'Martel', serif;
-  font-size: 1.728em; /* 27.648px */
-  font-weight: 800;
-  text-decoration: underline;
-  text-align: center;
-}
-
 .history {
   display: none;
   overflow: hidden;
@@ -255,73 +364,29 @@ a {
   overflow: hidden;
 }
 
-fieldset h1 {
-  font-family: 'Martel', serif;
-  font-size: 1.55em;
+.tagline {
+  margin-top: .3125em;
+  margin-bottom: .9375em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  font-weight: 400;
 }
 
-fieldset input {
-  padding: 10px 20px;
-  margin-top: 8px;
-  margin-bottom: 15px;
-  font-family: 'Roboto', sans-serif; 
-  font-size: 1.18em;
+.inputwrap {
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+  margin: 0 auto;
 }
 
-fieldset label {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif; 
-  font-size: 1.25em;
-}
-
-fieldset {
-  border: none;
-  text-align:center;
-}
-
-#parentDiv {
-  width: 100%;
-}
-
-#leftForm {
-  width: 50%;
-  float: left;
-}
-
-#rightSlide {
-  width: 50%;
+.inputbox {
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
   body {
     margin: 1em;
-  }
-
-  .aligned h1 {
-    padding: .4em;
-    line-height: 1.2em;
-    word-wrap: break-word;
-  }
-
-  .mobile-visible {
-    display: none;
-  }
-
-  .hasjs #burger {
-    display: none;
-  }
-
-  .hasjs #menu {
-    display: block;
-  }
-
-  .tablet {
-    display: block;
-  }
-
-  #navbar {
-    margin-bottom: 4em;
   }
 
   nav {  
@@ -342,7 +407,41 @@ fieldset {
 
   nav ul li a:hover { 
     color: #3d3c3c;
-  }  
+  } 
+
+  .aligned h1 {
+    padding: .4em;
+    line-height: 1.2em;
+    word-wrap: break-word;
+  }
+
+  #container h2 {
+  margin-top: auto;
+  }
+
+  #container h3 {
+  margin-top: auto;
+  }
+
+  #navbar {
+    margin-bottom: 4em;
+  } 
+
+  .mobile-visible {
+    display: none;
+  }
+
+  .hasjs #burger {
+    display: none;
+  }
+
+  .hasjs #menu {
+    display: block;
+  }
+
+  .tablet {
+    display: block;
+  }
 
   .trim-right {
     padding-right: 0;
@@ -351,29 +450,27 @@ fieldset {
   .trim-right a {
     padding-right: 0;
   }
+
+  .inputwrap {
+    width: 40%;
+  }
+
+  .slideshow {
+    width: 28.125em;
+    text-align:center;
+    margin: 4em auto; 
+  }
 }
 
 @media screen and (min-width: 982px) {
-  .aligned h1 {
-    padding: 1.25em;
-  }
-
   h1 {
     font-size: 2.074em; /* 33.178px */
   }
-	
-  div#index h2 {
-    font-size: 1.728em;
-  }
-	
+
   h2 {
     font-size: 1.728em; /* 27.648px */
   }
-	
-  div#index h3 {
-    font-size:1.613em;
-  }
-	
+
   h3 {
     font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   }
@@ -385,9 +482,29 @@ fieldset {
   p {
     font-size: 1em; /* 16px */
   }
+
+  .aligned h1 {
+    padding: 1.25em;
+  }
+	
+  div#index h2 {
+    font-size: 1.728em;
+  }
+	
+  div#index h3 {
+    font-size:1.613em;
+  }
 } 
 
 @media screen and (min-width: 1015px) {
+  nav ul li {
+    font-size: 1em;
+  }
+
+  .aligned h1 {
+    padding: 1.5em;
+  }
+
   .tablet {
     display: none;
   }
@@ -398,13 +515,5 @@ fieldset {
 
   .lrg-desktop {
     display: block;
-  }
-
-  .aligned h1 {
-    padding: 1.5em;
-  }
-
-  nav ul li {
-    font-size: 1em;
   }
 }
