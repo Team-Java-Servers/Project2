@@ -202,24 +202,6 @@ fieldset {
   margin: 0;
 }
 
-/*for the button on index*/
-div#index input {
-  background-color: #0F3E02;
-  color: white;
-  padding: .5em 1em;
-  font-size: 1.44em;
-  border: none;
-  text-align:center;
-  cursor: pointer;
-  border-radius: .34375em;
-  box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
-  outline: none;
-  transition: 0.2s all;
-}
-
-div#index input:hover {
-  color: #c2c2c2;
-}
 
 /* Adding transformation when the button is active */
 div#index input:active {
