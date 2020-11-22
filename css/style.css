@@ -22,23 +22,8 @@ body {
   line-height: 1.2em; /* 19.2px or 120% */
   margin: .5em;
   background-color:#81D66B; /* can be changed later*/
-  font-family: 'Roboto', sans-serif; 
-  width: 100%;
+  font-family: 'Roboto', Helvetica, sans-serif; 
 }
-	
-/* for the image slideshow*/
- .slideshow {
-  height: 350px;
-  width: 350px;
-  text-align:center;
-  margin: 2.5em; 
-}
-
-/* Hide the images by default */
-.mySlides {
-  display:none;
-}
-
 
 h1 {
   font-family: 'Martel', Georgia, serif;
@@ -189,7 +174,6 @@ fieldset {
   margin: 0;
 }
 
-
 /*for the button on index*/
 div#index button{
   background-color: #0F3E02;
@@ -211,6 +195,7 @@ div#index button:hover {
 
 /* Adding transformation when the button is active */
 div#index button:active {
+  transform: scale(0.98); 
   /* Scaling button to 0.98 to its original size */ 
   box-shadow: .1875em .125em 1.375em .0625em rgba(0, 0, 0, 0.5); 
   /* Lowering the shadow */ 
@@ -473,14 +458,7 @@ div#index button:active {
   .slideshow {
     width: 28.125em;
     text-align:center;
-    margin: 4em auto; 
-  }
-}
-
-  .slideshow {
-    width: 28.125em;
-    text-align:center;
-    margin: 4em auto; 
+    margin: 5em auto; 
   }
 }
 
