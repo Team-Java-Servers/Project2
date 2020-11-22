@@ -14,55 +14,62 @@
     <script src="js/site.js"></script>
   </head>  
   <body>
-    <header>
-      <div class="aligned">
-        <div>
-		      <a href="index.html"> 
-            <img class="mobile-visible" src="images/isud-transparent-small.png" alt="ISUD logo image">
-            <img class="tablet" src="images/isud-transparent-medium.png" alt="ISUD logo image">
-            <img class="desktop lrg-desktop" src="images/isud-transparent-large.png" alt="ISUD logo image">
-          </a>
-          <div class="right">
-            <button id="burger">
-              <img src="images/hamburger.png" alt="hamburger icon" />
-            </button>
+    <div id="page-container">
+      <header>
+        <div class="aligned">
+          <div>
+  		      <a href="index.html"> 
+              <img class="mobile-visible" src="images/isud-transparent-small.png" alt="ISUD logo image">
+              <img class="tablet" src="images/isud-transparent-medium.png" alt="ISUD logo image">
+              <img class="desktop lrg-desktop" src="images/isud-transparent-large.png" alt="ISUD logo image">
+            </a>
+            <div class="right">
+              <button id="burger">
+                <img src="images/hamburger.png" alt="hamburger icon" />
+              </button>
+            </div>
+          </div>
+          <h1 class="mobile-visible">ISUD</h1>
+          <h1 class="tablet desktop">The Universal Society for Universal Dialog</h1>
+        </div>
+      </header>
+      <!-- Top Navigation Menu -->
+    	<div id="navbar">
+        <nav id="menu">
+          <ul>
+            <li id="onpage"><a href="index.html">Home</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+            <li class="trim-right"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div> 
+    	<div id="container">
+      	<h3> “You are here in order to enable the world to live more amply, 
+      	  with greater vision, with a finer spirit of hope and achievement. You are here to enrich the world."
+      	  ― Woodrow Wilson
+      	</h3>
+        <div class="wrapper">
+          <h2>Inspire others or be inspired...</h2> 
+          <div id="index">
+            <form action="conferences.html">
+              <button type="submit">Attend a Conference!</button>
+            </form>
           </div>
         </div>
-        <h1 class="mobile-visible">ISUD</h1>
-        <h1 class="tablet desktop">The Universal Society for Universal Dialog</h1>
-      </div>
-    </header>
-    <!-- Top Navigation Menu -->
-  	<div id="navbar">
-      <nav id="menu">
-        <ul>
-          <li id="onpage"><a href="index.html">Home</a></li>
-          <li><a href="conferences.html">Conferences</a></li>
-          <li class="trim-right"><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div> 
-  	<div id="container">
-    	<h3> “You are here in order to enable the world to live more amply, 
-    	  with greater vision, with a finer spirit of hope and achievement. You are here to enrich the world."
-    	  ― Woodrow Wilson
-    	</h3>
-      <div class="wrapper">
-        <h2>Inspire others or be inspired...</h2> 
-        <div id="index">
-          <form action="conferences.html">
-            <button type="submit">Attend a Conference!</button>
-          </form>
+        <div class="slideshow">
+          <div class="bxslider">
+            <div><img src="images/gandhiyoumustbethechange.jpg" alt="Unity"></div>
+            <div><img src="images/inspire.jpg" alt="Inspire to change the world"></div>
+            <div><img src="images/international.jpg" alt="Impact the Globe"></div>
+            <div><img src="images/teamwork.jpg" alt="Makes the dreamwork"></div>
+          </div>
         </div>
       </div>
-      <div class="slideshow">
-        <div class="bxslider">
-          <div><img src="images/gandhiyoumustbethechange.jpg" alt="Unity"></div>
-          <div><img src="images/inspire.jpg" alt="Inspire to change the world"></div>
-          <div><img src="images/international.jpg" alt="Impact the Globe"></div>
-          <div><img src="images/teamwork.jpg" alt="Makes the dreamwork"></div>
-        </div>
-      </div>
+      <footer>
+        <p class="center">
+          &copy; 2020 The Universal Society for Universal Dialog
+        </p>
+      </footer>
     </div>
   </body>
 </html>
