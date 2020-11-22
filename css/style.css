@@ -31,7 +31,6 @@ body {
   height: 350px;
   width: 350px;
   text-align:center;
-  float:right;
   margin: 2.5em; 
 }
 
@@ -40,18 +39,6 @@ body {
   display:none;
 }
 
-/*for the button on index*/
-div#index button {
-  background-color: #0F3E02;
-  color: white;
-  padding: 14px 20px;
-  font-size: 1.2em;
-  border: none;
-  text-align:center;
-  cursor: pointer;
-  width: 60%;
-  font-family: 'Roboto', Helvetica, sans-serif; 
-}
 
 h1 {
   font-family: 'Martel', Georgia, serif;
@@ -203,9 +190,27 @@ fieldset {
 }
 
 
+/*for the button on index*/
+div#index button{
+  background-color: #0F3E02;
+  color: white;
+  padding: .5em 1em;
+  font-size: 1.44em;
+  border: none;
+  text-align:center;
+  cursor: pointer;
+  border-radius: .34375em;
+  box-shadow: .4375em .375em 1.75em .0625em rgba(0, 0, 0, 0.5);
+  outline: none;
+  transition: 0.2s all;
+}
+
+div#index button:hover {
+  color: #c2c2c2;
+}
+
 /* Adding transformation when the button is active */
-div#index input:active {
-  transform: scale(0.98); 
+div#index button:active {
   /* Scaling button to 0.98 to its original size */ 
   box-shadow: .1875em .125em 1.375em .0625em rgba(0, 0, 0, 0.5); 
   /* Lowering the shadow */ 
@@ -464,6 +469,13 @@ div#index input:active {
   .inputwrap {
     width: 40%;
   }
+
+  .slideshow {
+    width: 28.125em;
+    text-align:center;
+    margin: 4em auto; 
+  }
+}
 
   .slideshow {
     width: 28.125em;
